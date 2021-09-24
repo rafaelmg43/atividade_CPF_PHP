@@ -80,6 +80,9 @@ body {
     
 
 }
+.box {
+    display: inline-flex; /*display inline junta as duas box na mesma linha */
+}
 
 .entrar {
 
@@ -88,7 +91,8 @@ body {
     padding: 8px;
     border-radius: 4px; /*curvas suaves nas laterais da box, mesmo o elemento nao tendo bordas,"bom reforça"*/
 }
-.valida {
+.seg {
+    
     background-color: #ffc;
     color: black;
     padding: 8px;
