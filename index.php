@@ -15,6 +15,6 @@ $A += $cpf[$i] * $x; /* + operador matematico que soma todos os numeros*/
 $somaA = (($A%11) < 2 ) ? 0 : 11-($A%11); /*calculo do modulo*/
 echo "O VALOR DO PRIMEIRO DIGITO SERA: " . $somaA;
 
-
 ?>
 <br><a href="index.html">VOLTAR</a>
+
