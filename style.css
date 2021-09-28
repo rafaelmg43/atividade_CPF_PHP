@@ -21,7 +21,7 @@ body {
 
 .cpf-tela {
 
-    display: flex;
+    display: flex;/*display: exibição como se comporta no site, flex como o item fica disponivel dentro do espaço*/
     align-items: center; /*estabelece alinhamento de um certo item dentro de um bloco que o contem*/
     justify-content: start;
     width: 50%;
@@ -40,7 +40,7 @@ body {
 
 .cpf img {
 
-    height: 40rem;
+    height: 40rem;/*rem siginifica tamanho alterado na fonte do elemento raiz*/
 
 }
 
@@ -49,7 +49,7 @@ body {
     display: flex; /**/
     align-items: center;
     justify-content: space-around; /*space coloca as imagens alinhadas ao lado*/
-    flex-direction: column;
+    flex-direction: column; /*colluun coluna muda a posição de vertical para horinzontal*/
     width: 50%;
     min-height: 50rem;
 
@@ -58,7 +58,7 @@ body {
 .bandeira {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/*itens distribuidos igualmente em todo espaço disponivel*/
     align-items: center;
     flex-direction: column; /*defini a flexbi dos itens dentro do container. mudando o eixo (principal e a direção)*/
     background-color: #ffc;

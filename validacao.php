@@ -13,14 +13,14 @@ $digitoA +=  $cpf[$i] * $x;
 
 for($i = 0, $x = 11; $i <= 9; $i++, $x--){
 
-    if(str_repeat($i, 11) == $cpf){
+    if(str_repeat($i, 11) == $cpf){//str_repeat e para nao houve numeros repetidos e o valor der verdadeiro...
         return 'false';
     }
-    $digitoB +=  $cpf[$i] * $x;
+    $digitoB +=  $cpf[$i] * $x;//$digitoB recebendo $digitoB + o valor da equação
     
 } 
-
-$somaA = (($digitoA%11) < 2 ) ? 0 : 11-($digitoA%11);
+//o valor do digitoA recebe o resto da divisão por 11 se for menor que 2 ele imprime 0. 
+$somaA = (($digitoA%11) < 2 ) ? 0 : 11-($digitoA%11); //? operador ternario operadores logicos se o valor for menor que 2 ele transforma em 0 se diferente subitrai 11
 $somaB = (($digitoB%11) < 2 ) ? 0 : 11-($digitoB%11);
 //echo '<BR>' . 'O PRIMEIRO DIGITO É:' . $somaA;
 //echo '<BR>' . 'O SEGUNDO DIGITO É:' . $somaB;
